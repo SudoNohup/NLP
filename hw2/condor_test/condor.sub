@@ -1,0 +1,27 @@
+universe = vanilla
+#environment = CLASSPATH=/u/jianyu/Work/Github/NLP/hw2/mallet-2.0.7/class:/u/jianyu/Work/Github/NLP/hw2/mallet-2.0.7/lib/mallet-deps.jar
+environment = CLASSPATH=../mallet-2.0.7/class:../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = ../exp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = ../exp/experiment.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.HMMSimpleTagger --random-seed 1 \
+       --train true --model-file ../atis/atis_model_file \
+       --training-proportion 0.8 \
+       --test lab ../atis/atis.pos \
+
+
+Output = experiment.out
+Error  = experiment.err
+Queue 1
+
+

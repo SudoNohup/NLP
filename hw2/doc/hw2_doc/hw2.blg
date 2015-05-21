@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: hw2.aux
+The style file: plain.bst
+Database file #1: hw2.bib
+Warning--to sort, need author or key in grammar
+Warning--empty author in grammar
+Warning--empty year in grammar
+Warning--empty journal in laa
+Warning--empty journal in mallet
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            507 strings with 4283 characters,
+and the built_in function-call counts, 658 in all, are:
+= -- 58
+> -- 26
+< -- 0
++ -- 11
+- -- 8
+* -- 40
+:= -- 118
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 30
+empty$ -- 53
+format.name$ -- 8
+if$ -- 128
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 10
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 15
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 5
+while$ -- 4
+width$ -- 4
+write$ -- 27
+(There were 5 warnings)

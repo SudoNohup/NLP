@@ -1,0 +1,8 @@
+*~
+*.class
+*.swp
+tags
+*.tar.gz
+*.pos
+*bak
+.DS_Store

@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{grammar}
+Common suffixes.
+\newblock {\em http://grammar.about.com/od/words/a/comsuffixes.htm}.
+
+\bibitem{laa}
+John Lafferty, Andrew McCallum, and Fernando~CN Pereira.
+\newblock Conditional random fields: Probabilistic models for segmenting and
+  labeling sequence data.
+\newblock 2001.
+
+\bibitem{mallet}
+Andrew~K McCallum.
+\newblock Mallet: A machine learning for language toolkit.
+\newblock 2002.
+
+\end{thebibliography}

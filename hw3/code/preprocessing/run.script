@@ -1,0 +1,16 @@
+
+javac *.java
+
+#java preprocessing_train /projects/nlp/penn-treebank3/parsed/mrg/wsj/00 training_set 50
+#java preprocessing /projects/nlp/penn-treebank3/parsed/mrg/wsj/00 training_all_set
+#java preprocessing /projects/nlp/penn-treebank3/parsed/mrg/wsj/01 /projects/nlp/penn-treebank3/parsed/mrg/wsj/02 /projects/nlp/penn-treebank3/parsed/mrg/wsj/03 unlabeled_training_set
+##java preprocessing /projects/nlp/penn-treebank3/parsed/mrg/wsj/01/wsj_0110.mrg unlabeled_training_set
+##java preprocessing wsj_0110.mrg unlabeled_training_set
+#java preprocessing /projects/nlp/penn-treebank3/parsed/mrg/wsj/20 testing_set
+
+
+java preprocessing_train /projects/nlp/penn-treebank3/parsed/mrg/wsj/00 training_set100 100
+
+
+
+

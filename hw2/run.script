@@ -1,0 +1,100 @@
+javac nlp/preprocessing/*.java
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/atis/ atis/atis.pos
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/00/ wsj/wsj00.pos #java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/01/ wsj/wsj01.pos
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/02/ /projects/nlp/penn-treebank3/tagged/pos/wsj/03/ wsj/wsj0203.pos
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/04/ /projects/nlp/penn-treebank3/tagged/pos/wsj/05/ wsj/wsj0405.pos
+#rm -rf *~
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/06/ /projects/nlp/penn-treebank3/tagged/pos/wsj/07/ /projects/nlp/penn-treebank3/tagged/pos/wsj/08/ /projects/nlp/penn-treebank3/tagged/pos/wsj/09/ wsj/wsj41.pos
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/10/ /projects/nlp/penn-treebank3/tagged/pos/wsj/11/ /projects/nlp/penn-treebank3/tagged/pos/wsj/12/ /projects/nlp/penn-treebank3/tagged/pos/wsj/13/ wsj/wsj42.pos
+
+
+java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/14/ /projects/nlp/penn-treebank3/tagged/pos/wsj/15/ /projects/nlp/penn-treebank3/tagged/pos/wsj/16/ /projects/nlp/penn-treebank3/tagged/pos/wsj/17/ /projects/nlp/penn-treebank3/tagged/pos/wsj/18/ /projects/nlp/penn-treebank3/tagged/pos/wsj/19/ /projects/nlp/penn-treebank3/tagged/pos/wsj/20/ /projects/nlp/penn-treebank3/tagged/pos/wsj/21/ wsj/wsj81.pos
+#java -cp . nlp.preprocessing.POStoMallet /projects/nlp/penn-treebank3/tagged/pos/wsj/22/ /projects/nlp/penn-treebank3/tagged/pos/wsj/23/ /projects/nlp/penn-treebank3/tagged/pos/wsj/24/ /projects/nlp/penn-treebank3/tagged/pos/wsj/25/ /projects/nlp/penn-treebank3/tagged/pos/wsj/26/ /projects/nlp/penn-treebank3/tagged/pos/wsj/27/ /projects/nlp/penn-treebank3/tagged/pos/wsj/28/ /projects/nlp/penn-treebank3/tagged/pos/wsj/29/ wsj/wsj82.pos
+
+
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos gerund caps plural hyphen noun verb adj 
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos gerund caps plural hyphen noun verb adj 
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos gerund caps plural hyphen noun verb adj 
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj0203.pos gerund caps plural hyphen noun verb adj 
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj0405.pos gerund caps plural hyphen noun verb adj 
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj41.pos gerund caps plural hyphen noun verb adj 
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj42.pos gerund caps plural hyphen noun verb adj 
+
+
+
+
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos gerund
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos caps
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos plural
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos hyphen
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos noun
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos verb
+#java -cp . nlp.preprocessing.POSextraFeatures atis/atis.pos adj
+
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos gerund
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos caps
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos plural
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos hyphen
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos noun
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos verb
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj00.pos adj
+#
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos gerund
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos caps
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos plural
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos hyphen
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos noun
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos verb
+#java -cp . nlp.preprocessing.POSextraFeatures wsj/wsj01.pos adj
+
+
+
+
+#java -cp "mallet-2.0.7/class:mallet-2.0.7/lib/mallet-deps.jar" \
+#       cc.mallet.fst.HMMSimpleTagger \
+#       --train true --model-file model_file \
+#       --training-proportion 0.8 \
+#       --test lab train_file \
+
+
+#java -cp "mallet-2.0.7/class:mallet-2.0.7/lib/mallet-deps.jar" \
+#       cc.mallet.fst.SimpleTagger \
+#       --random-seed 1 \
+#       --train true --model-file model_file \
+#       --training-proportion 0.8 \
+#       --test lab train_file \
+
+
+
+#java -cp "mallet-2.0.7/class:mallet-2.0.7/lib/mallet-deps.jar" \
+#       cc.mallet.fst.HMMSimpleTagger \
+#       --train true --model-file model_file \
+#       --training-proportion 1 \
+#       --test lab wsj/wsj00.pos wsj/wsj01.pos \
+
+# java -agentlib:hprof=file=hprof.txt
+#java -agentlib:hprof=file=hprof.txt -cp "mallet-2.0.7/class:mallepu=samplest-2.0.7/lib/mallet-deps.jar" \
+#java -cp "mallet-2.0.7/class:mallepu=samplest-2.0.7/lib/mallet-deps.jar" \
+#       cc.mallet.fst.SimpleTagger \
+#       --random-seed 1 \
+#       --train true --model-file model_file \
+#       --training-proportion 0.8 \
+#       --test lab train_file \
+
+
+#java -agentlib:hprof=file=hprof.txt -cp "mallet-2.0.7/class:mallet-2.0.7/lib/mallet-deps.jar" \
+#       cc.mallet.fst.SimpleTagger \
+#       --random-seed 1 \
+#       --train true --model-file model_file \
+#       --training-proportion 0.8 \
+#       --test lab train_file \
+
+#java -agentlib:hprof=file=hprof.txt -cp "mallet-2.0.7/class:mallet-2.0.7/lib/mallet-deps.jar" \
+#       cc.mallet.fst.HMMSimpleTagger \
+#       --train true --model-file model_file \
+#       --training-proportion 0.8 \
+#       --test lab train_file \
+
+
+
+

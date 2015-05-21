@@ -1,0 +1,220 @@
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp0.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 0        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp0.out
+Error  = exp0.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp1.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 1        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp1.out
+Error  = exp1.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp2.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 2        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp2.out
+Error  = exp2.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp3.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 3        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp3.out
+Error  = exp3.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp4.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 4        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp4.out
+Error  = exp4.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp5.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 5        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp5.out
+Error  = exp5.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp6.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 6        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp6.out
+Error  = exp6.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp7.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 7        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp7.out
+Error  = exp7.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp8.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 8        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp8.out
+Error  = exp8.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = atis_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp9.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --random-seed 9        --train true --model-file model_file        --training-proportion 0.8        --test lab ../../atis/atis_all.pos
+
+Output = exp9.out
+Error  = exp9.err
+Queue 1
+
+

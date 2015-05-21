@@ -1,0 +1,154 @@
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp0.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_gerund.pos ../../wsj/wsj01_gerund.pos
+
+Output = exp0.out
+Error  = exp0.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp1.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_caps.pos ../../wsj/wsj01_caps.pos
+
+Output = exp1.out
+Error  = exp1.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp2.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_plural.pos ../../wsj/wsj01_plural.pos
+
+Output = exp2.out
+Error  = exp2.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp3.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_hyphen.pos ../../wsj/wsj01_hyphen.pos
+
+Output = exp3.out
+Error  = exp3.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp4.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_noun.pos ../../wsj/wsj01_noun.pos
+
+Output = exp4.out
+Error  = exp4.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp5.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_verb.pos ../../wsj/wsj01_verb.pos
+
+Output = exp5.out
+Error  = exp5.err
+Queue 1
+
+
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra_cmp
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp6.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_adj.pos ../../wsj/wsj01_adj.pos
+
+Output = exp6.out
+Error  = exp6.err
+Queue 1
+
+

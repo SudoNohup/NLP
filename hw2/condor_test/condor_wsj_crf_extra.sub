@@ -1,0 +1,22 @@
+universe = vanilla
+environment = CLASSPATH=../../mallet-2.0.7/class:../../mallet-2.0.7/lib/mallet-deps.jar 
+
+Initialdir = wsj_crf_extra
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = exp0.log
+
+Notification = complete
+Notify_user = jianyu@cs.utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger        --train true --model-file model_file        --training-proportion 1.0        --test lab ../../wsj/wsj00_all.pos ../../wsj/wsj01_all.pos
+
+Output = exp0.out
+Error  = exp0.err
+Queue 1
+
+

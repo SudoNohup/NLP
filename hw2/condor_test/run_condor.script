@@ -1,0 +1,8 @@
+#condor_submit condor_atis_hmm.sub
+#condor_submit condor_atis_crf.sub
+condor_submit condor_atis_crf_extra.sub
+#condor_submit condor_wsj_hmm.sub
+#condor_submit condor_wsj_crf.sub
+#condor_submit condor_wsj_crf_extra.sub
+#condor_submit condor_wsj_crf_extra_cmp.sub
+condor_submit condor_atis_crf_extra_cmp.sub
